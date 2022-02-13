@@ -1,0 +1,61 @@
+* {
+    border: 0;
+    padding: 0;
+}
+
+.header {
+    height: 15vh;
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(50, 99, 204);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.employeeCont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+
+.employee {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 25vw;
+    height: 15vw;
+    margin: 1rem;
+}
+
+.titleBox {
+    height: 30%;
+    color: rgb(255, 255, 255);
+    background-color: cornflowerblue;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+    
+}
+
+.info {
+    
+    background-color: rgb(252, 246, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem;
+}
+.info > * {
+    padding: 5px;
+    margin: 0;
+    height: fit-content;
+    border: 1px solid black;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
